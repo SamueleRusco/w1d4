@@ -60,6 +60,7 @@ main > article {
   margin-left: 5%;
   margin-top: 5%;
   margin-right: 5%;
+  align-items: center;
 }
 main > article > ul > li > span {
   border: 1px solid #454545;
@@ -73,8 +74,8 @@ main > article > iframe {
   border-radius: 10px;
   overflow: hidden;
   z-index: 1;
-  height: 320px;
-  width: 480px;
+
+  align-items: center;
 }
 
 /* TABELLE */
