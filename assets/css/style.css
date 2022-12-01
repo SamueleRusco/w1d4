@@ -1,15 +1,140 @@
 /* IMPOSTAZIONI GENERALI */
 
+body {
+  background-image: url(../img/sfondo.png);
+  background-color: #000000;
+  background-repeat: repeat-y;
+  background-position: center;
+  text-align: center;
+  font-family: poppins, sans-serif;
+  line-height: 1.5;
+}
+
 /* HEADER */
+header {
+  background-color: lightseagreen;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  background: rgb(1, 165, 217);
+  background: linear-gradient(
+    180deg,
+    rgba(1, 165, 217, 1) 0%,
+    rgba(21, 111, 139, 1) 50%
+  );
+  font-size: larger;
+  font-weight: 520;
+  color: white;
+  -webkit-box-shadow: 0px 5px 7px 0px #000000;
+  -webkit-box-shadow: 0px 5px 7px 0px #000000;
+  -moz-box-shadow: 0px 5px 7px 0px #000000;
+  -o-box-shadow: 0px 5px 7px 0px #000000;
+  box-shadow: 0px 5px 7px 0px #000000;
+}
+img {
+  height: 90px;
+  padding: 40px;
+  padding-bottom: 20px;
+}
+h1 {
+  padding: 10px;
+}
+nav {
+  padding: 10px;
+  padding-bottom: 30px;
+}
+nav > p {
+  padding: 10px;
+}
 
 /* MAIN */
-
+main {
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
 /* ELEMENTI NEL MAIN - ARTICLE */
+main > article {
+  margin-left: 5%;
+  margin-top: 5%;
+  margin-right: 5%;
+}
+main > article > ul > li > span {
+  border: 1px solid #454545;
+  border-radius: 3px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  background-color: #9c9c9c;
+}
+main > article > iframe {
+  width: 90%;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+  height: 320px;
+  width: 480px;
+}
 
 /* TABELLE */
 
 /* FORM */
+form {
+  background-color: white;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-align: left;
+}
+form > .news > h2 {
+  background-color: rgb(121, 121, 121);
+
+  text-align: left;
+  text-align: center;
+  font-size: larger;
+  font-weight: 520;
+  color: rgb(0, 0, 0);
+}
+form > .news {
+  background-color: rgb(121, 121, 121);
+  margin-left: 10%;
+  margin-right: 10%;
+}
 
 /* ELEMENTI NELL' ASIDE */
+aside {
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 0%;
+  margin-right: 5%;
+  text-align: center;
+  font-size: larger;
+}
+aside > div {
+  background-color: rgb(121, 121, 121);
+  margin-top: 0%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+aside > h2 {
+  font-weight: 520;
+  color: rgb(0, 0, 0);
+}
 
 /* FOOTER */
+footer {
+  background-color: white;
+  margin-left: 5%;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-right: 5%;
+  text-align: left;
+}
+footer > div {
+  background-color: rgb(121, 121, 121);
+  margin-top: 10%;
+  margin-bottom: 10%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
